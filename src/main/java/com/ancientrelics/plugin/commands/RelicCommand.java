@@ -128,8 +128,8 @@ public class RelicCommand implements CommandExecutor {
         sender.sendMessage(ColorUtil.color("&e/relic list &7- List all relics"));
         sender.sendMessage(ColorUtil.color("&e/relic owner <relic> &7- Show a relic's owner"));
         if (sender.hasPermission("ancientrelics.admin")) {
-            sender.sendMessage(ColorUtil.color("&e/relic start|stop &7- Start/stop the relic season
-            &c/relic admin give|remove|reset|respawn|reload|tp"));
+            sender.sendMessage(ColorUtil.color("&e/relic start|stop &7- Start/stop the relic season"));
+            sender.sendMessage(ColorUtil.color("&c/relic admin give|remove|reset|respawn|reload|tp"));
         }
     }
 }
